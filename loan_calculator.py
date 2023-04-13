@@ -4,6 +4,7 @@ from oop_loan_pmt import LoanCalculator
 import pytest
 
 
+
 # Unit tests
 def test_calculate_monthly_interest():
     loan_calculator = LoanCalculator(100000, 0.06, 30)
